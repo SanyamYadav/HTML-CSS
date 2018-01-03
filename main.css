@@ -1,0 +1,365 @@
+	
+b{
+	/*	color: #2abbff; */
+		font-family: helvetica;
+		/*font-size: 2em;*/
+		/*  color: rgb(242,50,73)*/
+			  color: rgba(242,50,73,1);  /*1 is like solid or transparent*/
+				/*  color: rgb(242,50,73)*/
+				text-shadow: 4px 4px 5px black;
+
+]
+		font-weight:bold;
+		font: bold 36px helvetica;
+		/*
+		border: 4px dashed green; /* no color means default, we can have dashed/solid
+		padding: 20px; 
+		margin: 100px;*/
+
+
+border-top: :4px solid black;
+border-right: 2px outset red;
+padding-left: 30px;
+padding-right:80px;
+
+margin-top: 30px
+margin-left:80px;
+	}
+
+
+body{
+	background:black url(12.jpg) center/cover no-repeat fixed;
+	/* background:black url(12.jpg) center/cover no-repeat; 
+
+	<p> paragraph is block 
+	<a> anchor is inline 
+
+	<section> block
+	<article> block
+	<header> block
+	<footer> block
+	Span does not have width and height  but you can change the display to block to be able to give it custome width and hiight */
+/* <div>  they can change if we change the display: inline or display:block;
+<span>
+
+Span tag is an inline element ( does not stretch extra )whereas div is an block level  element */
+
+
+
+
+}
+
+li{
+
+/* Notes to Myself*/
+		font-family: helvetica;
+		  color: rgb(255,255,255);
+		    font-weight: bold;
+text-shadow: 4px 4px 5px red;
+}
+
+p1{
+
+/* Notes to Myself*/
+		font-family: helvetica;
+		  color: rgb(255,255,255);
+text-shadow: 4px 4px 5px black;
+
+
+}
+
+p2{
+
+/* Notes to Myself*/
+		font-family: helvetica;
+		  color: rgb(255,255,255);
+		  text-shadow: 4px 4px 5px black;
+
+}
+
+p3{
+
+/* Notes to Myself*/
+		font-family: helvetica;
+		font-weight: bold;
+		font-size: 1.2em;
+		  color: rgb(255,255,255);
+		  text-shadow: 10px 10px 10px black;
+
+}
+
+
+
+p4{
+
+/* Notes to Myself*/
+		font-family: helvetica;
+		  color: black;
+		  text-shadow: 10px 10px 10px black;
+		  background-color: rgba(242,50,73,1);
+
+}
+p5{
+
+/* Notes to Myself*/
+		font-family: helvetica;
+		font-weight: bolder;
+		  color: white;
+		  font-size: 20px;
+		  text-shadow: 4px 4px 5px black;
+
+}
+
+p7{
+
+/* Notes to Myself*/
+		font-family: helvetica;
+		font-weight: bolder;
+		  color: black;
+		  font-size: 20px;
+		  text-shadow: 4px 4px 5px lightblue;
+
+}
+p8{
+
+/* Notes to Myself*/
+		font-family: helvetica;
+		font-weight: bolder;
+		  color: darkblue;
+		  font-size: 30px;
+		  text-shadow: 4px 4px 5px lightblue;
+
+}
+
+p9{
+
+/* Notes to Myself*/
+		font-family: helvetica;
+		font-weight: bolder;
+		  color: black;
+		  text-shadow: 4px 4px 5px lightblue;
+
+}
+
+p22{
+	border:3px solid red;
+	display:block;
+}
+
+
+.red{
+	color:red;
+}
+
+.green
+{
+color:green;
+}
+.blue{
+
+color: blue;
+}
+/* class by dots*/
+
+
+#red{
+	color:red;
+}
+/* IDs
+ Dont use two elements with the same id , you can use class
+
+*/
+
+#green
+{
+color:green;
+}
+#blue{
+
+color: blue;
+}
+
+p5:hover{
+	color:red;
+	border:2px solid green;
+
+}
+
+p5:active{
+	color:green;
+	
+}
+
+p5:visited{
+	color:black;
+	
+}
+
+.red-text p{
+	color:yellow;
+}
+/* div.red-text p: in case you only want div p and not article.red-text p*/
+
+
+.red-text p:nth-child(2){ /* or 2n for every second para  or 2n+1 for odd numbers or other mth equations can be used here (Pseudo classes)*/ 
+color:grey;
+
+}
+
+/* PSEUDO ELEMENT*/
+
+p::first-letter{
+font-size: 200%;
+color:blue;
+}
+.float{
+	float:left;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+/*
+
+p::before{
+content:"**";
+}  // same thing for after // used in float or icons or putting a dash
+
+p::first-line{
+	font-size: 100%;
+color:red;
+}
+
+*/
+
+.clear{
+	clear:both;
+}
+
+
+.box-1{
+border:4px solid blue;
+height:400px;
+float: left;
+/* You can have width too */
+}
+
+/* Margin, borders and paddings contribute to overall width so it might dop down on be different than expected */
+/* Margin, borders and paddings(add these to child elements ) */
+
+
+.box-1 .inner-box{
+border:4px solid blue;
+height:400px;
+float: left;
+background: red;
+/* You can have width, margin-left:15px; too too */
+}
+
+
+.box-2{
+border:4px solid blue;
+height:400px;
+float: right;
+}
+
+
+.rounded-corners{
+ 
+border-radius: 20px;
+
+/* 
+border-top-left-radius:20px; 
+border-bottom-right-radius:20px; 
+ border-radius: 20px;
+ border-top-left-radius:20px; // for one corner only  */
+
+}
+
+
+/*  will make image circle  */
+.circle-img{
+border-radius:50%;
+
+}
+
+.block{
+
+background-color: blue;
+height: 400px;
+width:400px;
+
+}
+
+
+
+/*  	LIST STYLING
+ol{
+	list-style-type: circle;   /* square, lower-roman, upper-roman etc  can also be used */
+	/* list-style-type: decimal; */
+
+	 /* this will give numbers, we can change this too
+
+list-style-image: url('mini.jpg');
+
+list-style-type:none; // will completely get rid of styling
+						// you can use padding too
+
+}
+	 */
+
+.grad{
+	height :300px;
+	width:100%; 
+	background:red;
+	background: linear-gradient(to right, red, yellow); /* to left , bottom // you can use radial gradient for circle coloured to up etc */
+}
+
+/*Div tags are great but they  not semantics, they dont explain what information goes inside of them */
+
+
+.tm-container{
+
+max-width: 1200px;
+margin:0 auto;
+border:1px solid red;
+background-color: black;
+}
+.tm-nav {
+
+}
+
+
+.tm-nav ul li{
+display:inline-block;
+color: black;
+}
+
+.tm-nav ul li a {
+display:inline-block;
+padding: 10px 20px;
+text-decoration: none;
+color: white;
+
+}
+
+.tm-header{
+background: white;
+}
+.tm-header::after{
+background: white;
+content: " ";
+clear: both;
+display: block;
+visibility:none;
+
+}
+
+.tm-logo{
+	float: left;
+}
+
+.tm-nav {
+float: right;
+}
+
+
