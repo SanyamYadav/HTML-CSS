@@ -4,23 +4,32 @@ b{
 		font-family: helvetica;
 		/*font-size: 2em;*/
 		/*  color: rgb(242,50,73)*/
-			  color: rgba(242,50,73,1);  /*1 is like solid or transparent*/
-				/*  color: rgb(242,50,73)*/
-				text-shadow: 4px 4px 5px black;
+			  color: black  /*1 is like solid or transparent*/
+				/*  color: rgba(242,50,73,1)*/
+			
+/*	text-shadow: 4px 4px 5px red;*/
 
-]
 		font-weight:bold;
 		font: bold 36px helvetica;
+		text-shadow: 4px 4px 5px lightpink;
 		/*
 		border: 4px dashed green; /* no color means default, we can have dashed/solid
 		padding: 20px; 
-		margin: 100px;*/
+		margin: 100px;
+
 
 
 border-top: :4px solid black;
 border-right: 2px outset red;
 padding-left: 30px;
 padding-right:80px;
+
+
+
+		*/
+
+
+
 
 margin-top: 30px
 margin-left:80px;
@@ -53,9 +62,8 @@ li{
 
 /* Notes to Myself*/
 		font-family: helvetica;
-		  color: rgb(255,255,255);
+		  color: black;
 		    font-weight: bold;
-text-shadow: 4px 4px 5px red;
 }
 
 p1{
@@ -72,8 +80,9 @@ p2{
 
 /* Notes to Myself*/
 		font-family: helvetica;
-		  color: rgb(255,255,255);
-		  text-shadow: 4px 4px 5px black;
+		  color: black;
+		  font-size: 20px;
+		  font-weight: bolder;
 
 }
 
@@ -83,13 +92,17 @@ p3{
 		font-family: helvetica;
 		font-weight: bold;
 		font-size: 1.2em;
-		  color: rgb(255,255,255);
-		  text-shadow: 10px 10px 10px black;
+		  color: white;
+		  text-shadow: 10px 10px 10px #C70039 ;
 
 }
 
 
+strong{
 
+	color: white;
+		  text-shadow: 10px 10px 10px black;
+}
 p4{
 
 /* Notes to Myself*/
@@ -142,6 +155,8 @@ p9{
 }
 
 p22{
+	color: white;
+	background-color: black;
 	border:3px solid red;
 	display:block;
 }
@@ -207,15 +222,20 @@ color:grey;
 }
 
 /* PSEUDO ELEMENT*/
-
+/*
 p::first-letter{
 font-size: 200%;
 color:blue;
 }
+
+*/
 .float{
+
 	float:left;
 	margin-bottom: 20px;
 	margin-right: 20px;
+		margin-left: 20px;
+		margin-top: 20px;
 }
 
 /*
@@ -290,8 +310,6 @@ width:400px;
 
 }
 
-
-
 /*  	LIST STYLING
 ol{
 	list-style-type: circle;   /* square, lower-roman, upper-roman etc  can also be used */
@@ -342,6 +360,14 @@ color: white;
 
 }
 
+.tm-nav ul li a {
+display:inline-block;
+padding: 10px 20px;
+text-decoration: none;
+color: white;
+
+}
+
 .tm-header{
 background: white;
 }
@@ -363,3 +389,98 @@ float: right;
 }
 
 
+/* 2nd part of the code*/
+
+
+
+h1,h2,h3{
+
+margin-bottom: 10px;
+
+}
+
+ul{
+	margin-left:20 px;
+}
+
+
+.tm-content{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	max-width: 100%;
+}
+
+
+.tm-article{
+	background: #8E0029    ;
+	padding: 30px;
+	width: 100%;
+}
+/*
+img{
+
+	display: block;
+	max-width:  100%;
+}
+*/
+
+.tm-footer{
+	clear:both;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+
+
+.tm-sidebar div {
+background: white;
+padding: 30px; 
+
+}
+.tm-top-a{
+
+	float: left;
+	max-width: 100%;
+}
+
+.tm-sidebar{
+	margin-top: 30px;
+	margin-bottom: 30px;
+float: right;
+width: 25%;
+max-width: 25%;
+
+}
+
+.clear-fix::after{
+	content: "Hello";
+background: white;
+content: " ";
+clear: both;
+display: block;
+visibility:none;
+
+}
+
+
+table{
+border-collapse: collapse;
+width: 100%; /* Responsive to  tablets and mobiles */
+}
+ td, th{
+ 	border:1px solid black;
+ }
+thead{
+	background: black;
+}
+tbody{
+	background: blue;
+}
+tr:nth-child(2n){  /* alternating rows */
+background:white;
+}
+
+tr:hover{
+	background: red;
+}
