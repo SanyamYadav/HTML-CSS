@@ -189,6 +189,12 @@ color:green;
 
 color: blue;
 }
+.white{
+		  text-shadow: 2px 2px 2px black;
+font-weight: bold;
+color: white;
+font-size: 25px;
+}
 /* class by dots*/
 
 
