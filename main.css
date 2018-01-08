@@ -96,7 +96,21 @@ p3{
 		  text-shadow: 10px 10px 10px #C70039 ;
 
 }
+h3{
 
+			  text-shadow: 5px 3px 5px white ;
+			  font-size: 30px;
+				font-weight: bolder;
+
+}
+.ull{
+color:white; 
+
+}
+.ulll{
+color:white; 
+
+}
 
 strong{
 
@@ -159,6 +173,7 @@ p22{
 	background-color: black;
 	border:3px solid red;
 	display:block;
+	
 }
 
 
@@ -235,7 +250,7 @@ color:blue;
 	margin-bottom: 20px;
 	margin-right: 20px;
 		margin-left: 20px;
-		margin-top: 20px;
+		margin-top: 
 }
 
 /*
@@ -416,13 +431,11 @@ ul{
 	padding: 30px;
 	width: 100%;
 }
-/*
-img{
 
-	display: block;
-	max-width:  100%;
+img{
+margin-top: 15px;
 }
-*/
+
 
 .tm-footer{
 	clear:both;
